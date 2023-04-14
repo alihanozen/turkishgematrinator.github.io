@@ -1,0 +1,169 @@
+* {
+    font-family: monospace;
+}
+
+.buton-area button {
+    padding: 15px;
+}
+
+.history {
+    margin-top: 30px;
+}
+
+#delete {
+    font-size: 8px;
+    padding: 5px;
+}
+
+#delete-row {
+    font-size: 8px;
+    padding: 5px;
+}
+
+.table-dark {
+    width: 100%;
+}
+
+#char-table td,
+#char-table th {
+    padding: 10px;
+    text-align: center;
+}
+
+#gmt-table td,
+#gmt-table th {
+    padding: 10px;
+    text-align: center;
+}
+
+#rst-table tr {
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+}
+
+#rst-table td {
+    text-align: center;
+    display: block;
+    margin-right: 5px;
+}
+
+#rst-table td:nth-child(odd) {
+    color: #e4ba49c5;
+}
+
+#rst-table td:nth-child(even) {
+    font-size: 15px;
+}
+
+#char-table input {
+    width: 100%;
+    font-size: 15px;
+    height: 25px;
+}
+
+#char-table {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    #char-table td:nth-child(odd) {
+        width: 10%;
+        display: inline-block;
+    }
+
+    #char-table td:nth-child(even) {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    #gmt-table td {
+        width: 50%;
+        display: inline-block;
+    }
+
+}
+
+.gmt-result {
+    background-color: rgb(233, 173, 45);
+    color: black;
+}
+
+#gmt-save-btn {
+    padding: 3px;
+    float: right;
+    margin-left: 5px;
+}
+
+#gmt-detail-btn {
+    background: none;
+    font-size: 11px;
+}
+
+.nav-pills button {
+    font-size: 12px;
+    padding: 5px;
+}
+
+#gematriTable {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-detail {
+    border: none;
+    background-color: none;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ordinal {
+    color: rgb(211, 34, 34);
+}
+
+.ordinal-reverse {
+    color: rgb(243, 135, 135);
+}
+
+.ordinal-v2 {
+    color: rgb(71, 230, 163);
+}
+
+.ordinal-reverse-v2 {
+    color: rgb(112, 185, 102);
+}
+
+.reduction {
+    color: rgb(68, 131, 212);
+}
+
+.reduction-reverse {
+    color: rgb(176, 207, 224);
+}
+
+.sumerian {
+    color: rgb(200, 241, 165);
+}
+
+.sumerian-reverse {
+    color: rgb(177, 229, 168);
+}
+
+.satanic {
+    color: rgb(141, 131, 230);
+}
+
+.barmenu {
+    margin-top: 10px;
+}
+
+#gematrinatorHistoryTable {
+    font-size: 10px;
+}
+
+#rst-tbl {
+    display: none;
+}
