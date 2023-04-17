@@ -105,7 +105,7 @@ function ordinalReverseHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[3];
+	var header = table.getElementsByTagName('th')[1];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -160,7 +160,7 @@ function ordinalV2HistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[6];
+	var header = table.getElementsByTagName('th')[2];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -215,7 +215,7 @@ function ordinalReverseV2HistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[9];
+	var header = table.getElementsByTagName('th')[3];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -270,7 +270,7 @@ function reductionHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[12];
+	var header = table.getElementsByTagName('th')[8];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -325,7 +325,7 @@ function reductionReverseHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[15];
+	var header = table.getElementsByTagName('th')[9];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -380,7 +380,7 @@ function sumerianHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[18];
+	var header = table.getElementsByTagName('th')[10];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -435,7 +435,7 @@ function sumerianReverseHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[21];
+	var header = table.getElementsByTagName('th')[11];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
@@ -490,7 +490,7 @@ function satanicHistoryAddToTable() {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
 	var table = document.getElementById('gematrinatorTable');
-	var header = table.getElementsByTagName('th')[24];
+	var header = table.getElementsByTagName('th')[16];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
 		"<th>" + $("#word-general").val() + "</th>" +
