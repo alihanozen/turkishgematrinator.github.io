@@ -62,7 +62,7 @@
     height: 25px;
 }
 
-#char-table{
+#char-table {
     font-size: 15px;
 }
 
@@ -99,7 +99,7 @@
 
 #gmt-detail-btn {
     background: none;
-    font-size: 8px;
+    font-size: 11px;
 }
 
 .nav-pills button {
@@ -109,6 +109,7 @@
 
 #gematriTable {
     text-align: center;
+    font-size: 25px;
 }
 
 .btn-detail {
@@ -161,4 +162,8 @@
 
 #gematrinatorHistoryTable {
     font-size: 10px;
+}
+
+#rst-tbl {
+    display: none;
 }
