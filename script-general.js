@@ -14,3 +14,4 @@ function convertUppercaseGeneral() {
 	text = text.toUpperCase();
 	input.value = text;
 }
+
