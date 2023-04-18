@@ -2,7 +2,7 @@ function ordinalHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[0];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -17,7 +17,7 @@ function ordinalHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		ordinalHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -27,7 +27,7 @@ function ordinalReverseHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[1];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -42,7 +42,7 @@ function ordinalReverseHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		ordinalReverseHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -52,7 +52,7 @@ function ordinalV2HistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[2];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -67,7 +67,7 @@ function ordinalV2HistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		ordinalV2HistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -77,7 +77,7 @@ function ordinalReverseV2HistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[3];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -92,7 +92,7 @@ function ordinalReverseV2HistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		ordinalReverseV2HistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -102,7 +102,7 @@ function reductionHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[8];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -117,7 +117,7 @@ function reductionHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		reductionHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -127,7 +127,7 @@ function reductionReverseHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[9];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -142,7 +142,7 @@ function reductionReverseHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		reductionReverseHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -152,7 +152,7 @@ function sumerianHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[10];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -167,7 +167,7 @@ function sumerianHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		sumerianHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -177,7 +177,7 @@ function sumerianReverseHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[11];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -192,7 +192,7 @@ function sumerianReverseHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		sumerianReverseHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}
@@ -202,7 +202,7 @@ function satanicHistoryAddToTable() {
 	if ($("#gematrinatorHistoryTable tbody").length == 0) {
 		$("#gematrinatorHistoryTable").append("<tbody></tbody>");
 	}
-	var table = document.getElementById('gematrinatorTable');
+	var table = document.getElementById('gematriTable');
 	var header = table.getElementsByTagName('th')[16];
 
 	$("#gematrinatorHistoryTable tbody").append("<tr>" +
@@ -217,7 +217,7 @@ function satanicHistoryUpdate() {
 	if ($("#word-general").val() != null && $("#word-general").val() != '') {
 		satanicHistoryAddToTable();
 
-		formClear();
+
 
 		$("#word-general").focus();
 	}

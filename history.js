@@ -25,8 +25,6 @@ function historyUpdate() {
 	if ($("#word").val() != null && $("#word").val() != '') {
 		historyAddToTable();
 
-		formClear();
-
 		$("#word").focus();
 	}
 }

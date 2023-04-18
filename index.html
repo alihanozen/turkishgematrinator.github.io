@@ -277,83 +277,89 @@
                             </div>
                         </div>
                         <div style="display:table; margin: auto; max-width: 500px">
-                            <table id="gematrinatorTable" class="table table-borderless">
-                                <center>
-                                    <thead>
-                                        <tr>
-                                            <th><button id="gmt-detail-btn" class="btn-detail ordinal"
-                                                    onclick="showOrdinal();ordinalHistoryUpdate();">Turkish
-                                                    Ordinal</button>
-                                            </th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail ordinal-reverse"
-                                                    onclick="showOrdinalReverse();ordinalReverseHistoryUpdate();">Turkish
-                                                    Ordinal Reverse</button></th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail ordinal-v2"
-                                                    onclick="showOrdinalV2();ordinalV2HistoryUpdate();">Turkish Ordinal
-                                                    V2</button></th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail ordinal-reverse-v2"
-                                                    onclick="showOrdinalReverseV2();ordinalReverseV2HistoryUpdate();">Turkish
-                                                    Ordinal V2 Reverse</button></th>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div id="result-ordinal"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-ordinal-reverse"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-ordinal-v2"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-ordinal-v2-reverse"></div>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <th><button id="gmt-detail-btn" class="btn-detail reduction"
-                                                    onclick="showReduction();reductionHistoryUpdate();">Turkish
-                                                    Reduction</button></th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail reduction-reverse"
-                                                    onclick="showReductionReverse();reductionReverseHistoryUpdate();">Turkish
-                                                    Reduction Reverse</button></th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail sumerian"
-                                                    onclick="showSumerian();sumerianHistoryUpdate();">Turkish
-                                                    Sumerian</button>
-                                            </th>
-                                            <th><button id="gmt-detail-btn" class="btn-detail sumerian-reverse"
-                                                    onclick="showSumerianReverse();sumerianReverseHistoryUpdate();">Turkish
-                                                    Sumerian Reverse</button></th>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div id="result-reduction"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-reduction-reverse"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-sumerian"></div>
-                                            </th>
-                                            <th>
-                                                <div id="result-sumerian-reverse"></div>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <th><button id="gmt-detail-btn" class="btn-detail satanic"
-                                                    onclick="showSatanic();satanicHistoryUpdate();">Turkish
-                                                    Satanic</button>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div id="result-satanic"></div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    </tbody>
-                            </table>
-                            </center>
+                            <div id="MainTableRow">
+                                <div id="MainTable">
+                                    <div id="Gematria_Table">
+                                        <table id="gematriTable">
+                                            <thead>
+                                                <tr>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail ordinal"
+                                                            onclick="showOrdinal();ordinalHistoryUpdate();">Turkish
+                                                            Ordinal</button>
+                                                    </th>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail ordinal-reverse"
+                                                            onclick="showOrdinalReverse();ordinalReverseHistoryUpdate();">Turkish
+                                                            Ordinal Reverse</button></th>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail ordinal-v2"
+                                                            onclick="showOrdinalV2();ordinalV2HistoryUpdate();">Turkish
+                                                            Ordinal
+                                                            V2</button></th>
+                                                    <th><button id="gmt-detail-btn"
+                                                            class="btn-detail ordinal-reverse-v2"
+                                                            onclick="showOrdinalReverseV2();ordinalReverseV2HistoryUpdate();">Turkish
+                                                            Ordinal V2 Reverse</button></th>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <div id="result-ordinal"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-ordinal-reverse"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-ordinal-v2"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-ordinal-v2-reverse"></div>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail reduction"
+                                                            onclick="showReduction();reductionHistoryUpdate();">Turkish
+                                                            Reduction</button></th>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail reduction-reverse"
+                                                            onclick="showReductionReverse();reductionReverseHistoryUpdate();">Turkish
+                                                            Reduction Reverse</button></th>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail sumerian"
+                                                            onclick="showSumerian();sumerianHistoryUpdate();">Turkish
+                                                            Sumerian</button>
+                                                    </th>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail sumerian-reverse"
+                                                            onclick="showSumerianReverse();sumerianReverseHistoryUpdate();">Turkish
+                                                            Sumerian Reverse</button></th>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <div id="result-reduction"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-reduction-reverse"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-sumerian"></div>
+                                                    </th>
+                                                    <th>
+                                                        <div id="result-sumerian-reverse"></div>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th><button id="gmt-detail-btn" class="btn-detail satanic"
+                                                            onclick="showSatanic();satanicHistoryUpdate();">Turkish
+                                                            Satanic</button>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <div id="result-satanic"></div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
