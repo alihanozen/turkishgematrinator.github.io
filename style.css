@@ -36,16 +36,15 @@
 }
 
 #rst-table tr {
-    width: 5%;
     text-align: center;
     display: inline-block;
-    font-size: 10px;
+    width: 30px;
 }
 
 #rst-table td {
-    width: 100%;
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin-right: 5px;
 }
 
 #rst-table td:nth-child(odd) {
@@ -54,13 +53,6 @@
 
 #rst-table td:nth-child(even) {
     font-size: 15px;
-}
-
-@media (max-width: 768px) {
-    #rst-table tr {
-        width: 15%;
-        display: inline-block;
-    }
 }
 
 #char-table input {
@@ -113,7 +105,7 @@
 }
 
 #gematrinatorTable tr:nth-child(even) {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #gematrinatorHistoryTable {
@@ -133,18 +125,44 @@
     font-size: 10px;
     cursor: pointer;
     display: inline-block;
-  }
+}
 
-  .ordinal {color: rgb(211, 34, 34);}
-  .ordinal-reverse {color: rgb(243, 135, 135);}
-  .ordinal-v2 {color: rgb(71, 230, 163);}
-  .ordinal-reverse-v2 {color: rgb(112, 185, 102);}
-  .reduction {color: rgb(68, 131, 212);}
-  .reduction-reverse {color: rgb(176, 207, 224);}
-  .sumerian {color: rgb(200, 241, 165);}
-  .sumerian-reverse {color: rgb(177, 229, 168);}
-  .satanic {color: rgb(141, 131, 230);}
+.ordinal {
+    color: rgb(211, 34, 34);
+}
 
-  .barmenu {
+.ordinal-reverse {
+    color: rgb(243, 135, 135);
+}
+
+.ordinal-v2 {
+    color: rgb(71, 230, 163);
+}
+
+.ordinal-reverse-v2 {
+    color: rgb(112, 185, 102);
+}
+
+.reduction {
+    color: rgb(68, 131, 212);
+}
+
+.reduction-reverse {
+    color: rgb(176, 207, 224);
+}
+
+.sumerian {
+    color: rgb(200, 241, 165);
+}
+
+.sumerian-reverse {
+    color: rgb(177, 229, 168);
+}
+
+.satanic {
+    color: rgb(141, 131, 230);
+}
+
+.barmenu {
     margin-top: 10px;
-  }
+}
